@@ -1,0 +1,23 @@
+<h2>Calculator</h2>
+
+<input id="a" placeholder="First number">
+
+<input id="b" placeholder="Second number">
+
+<button onclick="sum()">Add</button>
+
+<p id="result"></p>
+
+<script>
+
+function sum() {
+
+  let a = Number(document.getElementById("a").value);
+
+  let b = Number(document.getElementById("b").value);
+
+  document.getElementById("result").innerText = a + b;
+
+}
+
+</script
